@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var name =  "sulaiman"
+    var name2 =  "syed"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
