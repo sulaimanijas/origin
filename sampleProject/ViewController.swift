@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 var array = "1"
     var name : String
+    var nasme : Int
 
     override func viewDidLoad() {
         super.viewDidLoad()
