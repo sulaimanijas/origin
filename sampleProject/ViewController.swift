@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 var array = "1"
+    var name : String
 
     override func viewDidLoad() {
         super.viewDidLoad()
