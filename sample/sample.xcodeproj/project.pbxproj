@@ -16,6 +16,7 @@
 		4C2EED19280D35A9008CCB7B /* sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EED18280D35A9008CCB7B /* sampleTests.swift */; };
 		4C2EED23280D35A9008CCB7B /* sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EED22280D35A9008CCB7B /* sampleUITests.swift */; };
 		4C2EED25280D35A9008CCB7B /* sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EED24280D35A9008CCB7B /* sampleUITestsLaunchTests.swift */; };
+		4CFC28F52832531000EAA9D2 /* sample_email.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4CFC28F42832531000EAA9D2 /* sample_email.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4C2EED1E280D35A9008CCB7B /* sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C2EED22280D35A9008CCB7B /* sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUITests.swift; sourceTree = "<group>"; };
 		4C2EED24280D35A9008CCB7B /* sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CFC28F42832531000EAA9D2 /* sample_email.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sample_email.txt; path = ../../testSample/testSample/sample_email.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4C2EED00280D35A6008CCB7B /* sample */ = {
 			isa = PBXGroup;
 			children = (
+				4CFC28F42832531000EAA9D2 /* sample_email.txt */,
 				4C2EED01280D35A6008CCB7B /* AppDelegate.swift */,
 				4C2EED03280D35A6008CCB7B /* SceneDelegate.swift */,
 				4C2EED05280D35A6008CCB7B /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				4C2EED0E280D35A8008CCB7B /* LaunchScreen.storyboard in Resources */,
 				4C2EED0B280D35A8008CCB7B /* Assets.xcassets in Resources */,
 				4C2EED09280D35A6008CCB7B /* Main.storyboard in Resources */,
+				4CFC28F52832531000EAA9D2 /* sample_email.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
