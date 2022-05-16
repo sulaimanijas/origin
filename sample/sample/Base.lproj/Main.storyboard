@@ -43,6 +43,7 @@
                             <constraint firstItem="b8k-Et-H92" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hSo-Xp-1xz"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="4it-LD-YUm"/>
                     <connections>
                         <outlet property="lblContent" destination="b8k-Et-H92" id="uhx-X9-Mxu"/>
                         <outlet property="webView" destination="dYc-Sj-ylU" id="Qct-Q3-mRL"/>
@@ -50,10 +51,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="113.04347826086958" y="81.696428571428569"/>
+            <point key="canvasLocation" x="1023.1884057971015" y="81.696428571428569"/>
+        </scene>
+        <!--Child View Controller-->
+        <scene sceneID="yW2-3m-VaJ">
+            <objects>
+                <viewController storyboardIdentifier="ChildVIewController" id="cXx-1E-ei5" customClass="ChildViewController" customModule="sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hz8-Ku-ICB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GWb-ZE-8fP"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ebm-dh-0vY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xWB-vp-6S5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2536" y="82"/>
         </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -6,12 +6,20 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
     @IBOutlet weak  var lblContent : UILabel!
-    @IBOutlet weak var webView : UIWebView!
+    @IBOutlet weak var webView : WKWebView!
+    
+    
+    func shopping(amount: Int){
+        print(amount)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        shopping(amount: 1000)
         do {
             guard let filePath = Bundle.main.path(forResource: "sample_email", ofType: "txt")
             else {
@@ -29,5 +37,3 @@ class ViewController: UIViewController {
         }
     }
 }
-        
-    
