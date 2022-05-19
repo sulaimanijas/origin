@@ -10,7 +10,7 @@ import WebKit
  @objc protocol getAgeDelegate{
     
    @objc  func getAge(name : Int , color : UIColor)
-
+    //@onjcc
 }
 class ViewController: UIViewController,getAgeDelegate {
     var models = [String]()
